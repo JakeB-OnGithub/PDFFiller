@@ -1,0 +1,283 @@
+{
+	"fields": [
+	{
+		"Readable Name": "Part 1",
+		"Type": "Heading",
+		"Tag": "h2"
+	},
+	{
+		"Readable Name": "What is your first name?",
+		"Field Name": "First",
+		"Type": "Text",
+		"Required": "Required"
+	},
+	{
+		"Readable Name": "What is your last name?",
+		"Field Name": "Last",
+		"Type": "Text",
+		"Required": "Required"
+	},
+	{
+		"Readable Name": "What is your middle initial?",
+		"Field Name": "MI",
+		"Type": "Text"
+	},
+	{
+		"Readable Name": "What is your social security number?",
+		"Field Name": "SSN",
+		"Type": "SSN"
+	},
+	{
+		"Readable Name": "What is your birth date?",
+		"Field Name": "Date",
+		"Type": "Date",
+		"Required": "Required"
+	},
+	{
+		"Readable Name": "What is your race? This information is needed for statistical purposes.",
+		"Type": "Heading",
+		"Tag": "None"
+	},
+	{
+		"Readable Name": "American Indian or Alaskan",
+		"Field Name": "American Indian or Alaskan_1",
+		"Type": "Checkbox"
+	},
+	{
+		"Readable Name": "Asian",
+		"Field Name": "Asian",
+		"Type": "Checkbox"
+	},
+	{
+		"Readable Name": "Black or African American",
+		"Field Name": "Black or African American",
+		"Type": "Checkbox"
+	},
+	{
+		"Readable Name": "Native Hawaiian/Pacific Islander",
+		"Field Name": "Native HawaiianPacific Islander",
+		"Type": "Checkbox"
+	},
+	{
+		"Readable Name": "White",
+		"Field Name": "White",
+		"Type": "Checkbox"
+	},
+	{
+		"Readable Name": "Are you of Hispanic or Latin ethnicity?",
+		"Field Name": "Hispanic / Latino - 1",
+		"Type": "Radio Button",
+		"Options": [
+			"Yes",
+			"No"
+		]
+	},
+	{
+		"Readable Name": "What is your sex?",
+		"Field Name": "Sex - 1",
+		"Type": "Radio Button",
+		"Options": [
+			"Male",
+			"Female"
+		]
+	},
+	{
+		"Readable Name": "What is your relationship to the child you are applying for?",
+		"Field Name": "Relationship",
+		"Type": "Radio Button",
+		"Options": [
+			"Father",
+			"Mother",
+			"Legally Responsible Adult",
+			"Foster Parent",
+			"Other"
+		],
+		"Required": "Required"
+	},
+
+
+
+	{
+		"Readable Name": "Part 2",
+		"Type": "Heading",
+		"Tag": "h2"
+	},
+	{
+		"Readable Name": "Is there another adult residing in your house?",
+		"Field Name": "SKIP",
+		"Type": "Radio Button",
+		"Options": [
+			"Yes",
+			"No"
+		],
+		"fields": [
+			{
+				"Readable Name": "Is this adult financially responsible for the child you are applying for?",
+				"Field Name": "SKIP",
+				"Type": "Radio Button",
+				"Options": [
+					"Yes",
+					"No"
+				],
+				"fields": [
+					{
+						"Readable Name": "What is their first name?",
+						"Field Name": "First_2",
+						"Type": "Text"
+					},
+					{
+						"Readable Name": "What is their last name?",
+						"Field Name": "Last_2",
+						"Type": "Text"
+					},
+					{
+						"Readable Name": "What is their middle initial?",
+						"Field Name": "MI_2",
+						"Type": "Text"
+					},
+					{
+						"Readable Name": "What is their social security number?",
+						"Field Name": "SSN_1",
+						"Type": "SSN"
+					},
+					{
+						"Readable Name": "What is their birth date?",
+						"Field Name": "Date_1",
+						"Type": "Date"
+					},
+					{
+						"Readable Name": "What is their race? This information is needed for statistical purposes.",
+						"Type": "Heading",
+						"Tag": "None"
+					},
+					{
+						"Readable Name": "American Indian or Alaskan",
+						"Field Name": "American Indian or Alaskan_2",
+						"Type": "Checkbox"
+					},
+					{
+						"Readable Name": "Asian",
+						"Field Name": "Asian_2",
+						"Type": "Checkbox"
+					},
+					{
+						"Readable Name": "Black or African American",
+						"Field Name": "Black or African American_2",
+						"Type": "Checkbox"
+					},
+					{
+						"Readable Name": "Native Hawaiian/Pacific Islander",
+						"Field Name": "Native HawaiianPacific Islander_2",
+						"Type": "Checkbox"
+					},
+					{
+						"Readable Name": "White",
+						"Field Name": "White_2",
+						"Type": "Checkbox"
+					},
+					{
+						"Readable Name": "Are they of Hispanic or Latin ethnicity?",
+						"Field Name": "Hispanic / Latino - 2",
+						"Type": "Radio Button",
+						"Options": [
+							"Yes",
+							"No"
+						]
+					},
+					{
+						"Readable Name": "What is their sex?",
+						"Field Name": "Sex - 2",
+						"Type": "Radio Button",
+						"Options": [
+							"Male",
+							"Female"
+						]
+					}
+				]
+			}
+		]
+	},
+
+
+
+	{
+		"Readable Name": "Part 3",
+		"Type": "Heading",
+		"Tag": "h2"
+	},
+	{
+		"Readable Name": "What is your home address?",
+		"Field Name": "3 HOME ADDRESS Number and Street",
+		"Type": "Text"
+	},
+	{
+		"Readable Name": "What City do you live in?",
+		"Field Name": "City",
+		"Type": "Text"
+	},
+	{
+		"Readable Name": "What State do you live in? (NJ by default)",
+		"Field Name": "State",
+		"Type": "Text"
+	},
+	{
+		"Readable Name": "What is your zip code?",
+		"Field Name": "Zip Code",
+		"Type": "Text"
+	},
+	{
+		"Readable Name": "What County do you live in?",
+		"Field Name": "County",
+		"Type": "Text"
+	},
+	{
+		"Readable Name": "What school district does your children attend?",
+		"Field Name": "School District",
+		"Type": "Text"
+	},
+	
+	
+
+
+	{
+		"Readable Name": "Part 4",
+		"Type": "Heading",
+		"Tag": "h2"
+	},
+	{
+		"Readable Name": "What is your telephone or cellphone number?",
+		"Field Name": "4 HOME TELEPHONE",
+		"Type": "Text"
+	},
+	{
+		"Readable Name": "What is your email address?",
+		"Field Name": "Email",
+		"Type": "Text"
+	},	
+	
+	
+
+
+
+	{
+		"Readable Name": "Part 5",
+		"Type": "Heading",
+		"Tag": "h2"
+	},
+	{
+		"Readable Name": "How many adults reside in your house and are financially responsible for your child(ren)/dependents?",
+		"Field Name": "5 NUMBER OF ADULTS IN FAMILY",
+		"Type": "Text"
+	},
+	{
+		"Readable Name": "How many children reside in your household and are financially dependent on you?",
+		"Field Name": "NUMBER OF CHILDREN IN FAMILY",
+		"Type": "Text"
+	},
+	{
+		"Readable Name": "What is the total family size (adults plus children)?",
+		"Field Name": "TOTAL FAMILY SIZE",
+		"Type": "Text"
+	}
+]
+}

@@ -1,0 +1,259 @@
+{
+	"fields": [
+	{
+		"Readable Name": "Are you working?",
+		"Field Name": "SKIP",
+		"Type": "Radio Button",
+		"Options": [
+			"Yes",
+			"No"
+		],
+		"fields": [
+		{
+			"Readable Name": "How much do you receive every month before taxes are deducted?",
+			"Field Name": "PARENTCOAPPLICANT List gross income for current WEEK 2 WEEKS MONTH YEARRow1_3",
+			"Type": "Text"
+			
+		}
+		]
+	},
+	{
+		"Readable Name": "Do you receive pension or retirement income?",
+		"Field Name": "SKIP",
+		"Type": "Radio Button",
+		"Options": [
+			"Yes",
+			"No"
+		],
+		"fields": [
+		{
+			"Readable Name": "How much do you receive every month before taxes are deducted?",
+			"Field Name": "PARENTCOAPPLICANT List gross income for current WEEK 2 WEEKS MONTH YEARRow2_3",
+			"Type": "Text"
+			
+		}
+		]
+	},
+	{
+		"Readable Name": "Do you receive Supplemental or Social Security benefits?",
+		"Field Name": "SKIP",
+		"Type": "Radio Button",
+		"Options": [
+			"Yes",
+			"No"
+		],
+		"fields": [
+		{
+			"Readable Name": "How much do you receive every month before taxes are deducted?",
+			"Field Name": "PARENTCOAPPLICANT List gross income for current WEEK 2 WEEKS MONTH YEARRow3_3",
+			"Type": "Text"
+			
+		}
+		]
+	},
+	{
+		"Readable Name": "Do you receive Unemployment or Workmen's Compensation?",
+		"Field Name": "SKIP",
+		"Type": "Radio Button",
+		"Options": [
+			"Yes",
+			"No"
+		],
+		"fields": [
+		{
+			"Readable Name": "How much do you receive every month before taxes are deducted?",
+			"Field Name": "PARENTCOAPPLICANT List gross income for current WEEK 2 WEEKS MONTH YEARRow4_3",
+			"Type": "Text"
+			
+		}
+		]
+	},
+	{
+		"Readable Name": "Do you receive TANF Cash Assistance",
+		"Field Name": "SKIP",
+		"Type": "Radio Button",
+		"Options": [
+			"Yes",
+			"No"
+		],
+		"fields": [
+		{
+			"Readable Name": "If so, how much do you receive every month?",
+			"Field Name": "PARENTCOAPPLICANT List gross income for current WEEK 2 WEEKS MONTH YEARRow5_3",
+			"Type": "Text"
+			
+		}
+		]
+	},
+	{
+		"Readable Name": "Do you receive Child Support/Alimony?",
+		"Field Name": "SKIP",
+		"Type": "Radio Button",
+		"Options": [
+			"Yes",
+			"No"
+		],
+		"fields": [
+		{
+			"Readable Name": "How much do you receive every month?",
+			"Field Name": "PARENTCOAPPLICANT List gross income for current WEEK 2 WEEKS MONTH YEARRow6_3",
+			"Type": "Text"
+			
+		}
+		]
+	},
+	{
+		"Readable Name": "Do you receive other income?",
+		"Field Name": "SKIP",
+		"Type": "Radio Button",
+		"Options": [
+			"Yes",
+			"No"
+		],
+		"fields": [
+		{
+			"Readable Name": "What is it?",
+			"Field Name": "7 Other",
+			"Type": "Text"
+		},
+		{
+			"Readable Name": "How much do you receive every month before taxes are deducted?",
+			"Field Name": "PARENTCOAPPLICANT List gross income for current WEEK 2 WEEKS MONTH YEARRow7_3",
+			"Type": "Text"
+		}
+		]
+	},
+
+
+
+	{
+	"Readable Name": "Is there another adult?",
+		"Field Name": "SKIP",
+		"Type": "Radio Button",
+		"Options": [
+			"Yes",
+			"No"
+		],
+		"fields": [
+			{
+				"Readable Name": "Are they working?",
+				"Field Name": "SKIP",
+				"Type": "Radio Button",
+				"Options": [
+					"Yes",
+					"No"
+				],
+				"fields": [
+				{
+					"Readable Name": "How much do they receive every month before taxes are deducted?",
+					"Field Name": "PARENTCOAPPLICANT List gross income for current WEEK 2 WEEKS MONTH YEARRow1_3_1",
+					"Type": "Text"
+					
+				}
+				]
+			},
+			{
+				"Readable Name": "Do they receive pension or retirement income?",
+				"Field Name": "SKIP",
+				"Type": "Radio Button",
+				"Options": [
+					"Yes",
+					"No"
+				],
+				"fields": [
+				{
+					"Readable Name": "How much do they receive every month before taxes are deducted?",
+					"Field Name": "PARENTCOAPPLICANT List gross income for current WEEK 2 WEEKS MONTH YEARRow2_3_1",
+					"Type": "Text"
+					
+				}
+				]
+			},
+			{
+				"Readable Name": "Do they receive Supplemental or Social Security benefits?",
+				"Field Name": "SKIP",
+				"Type": "Radio Button",
+				"Options": [
+					"Yes",
+					"No"
+				],
+				"fields": [
+				{
+					"Readable Name": "How much do they receive every month before taxes are deducted?",
+					"Field Name": "PARENTCOAPPLICANT List gross income for current WEEK 2 WEEKS MONTH YEARRow3_3_1",
+					"Type": "Text"
+					
+				}
+				]
+			},
+			{
+				"Readable Name": "Do they receive Unemployment or Workmen's Compensation?",
+				"Field Name": "SKIP",
+				"Type": "Radio Button",
+				"Options": [
+					"Yes",
+					"No"
+				],
+				"fields": [
+				{
+					"Readable Name": "How much do they receive every month before taxes are deducted?",
+					"Field Name": "PARENTCOAPPLICANT List gross income for current WEEK 2 WEEKS MONTH YEARRow4_3_1",
+					"Type": "Text"
+					
+				}
+				]
+			},
+			{
+				"Readable Name": "Do they receive TANF Cash Assistance",
+				"Field Name": "SKIP",
+				"Type": "Radio Button",
+				"Options": [
+					"Yes",
+					"No"
+				],
+				"fields": [
+				{
+					"Readable Name": "If so, how much do they receive every month?",
+					"Field Name": "PARENTCOAPPLICANT List gross income for current WEEK 2 WEEKS MONTH YEARRow5_3_1",
+					"Type": "Text"
+					
+				}
+				]
+			},
+			{
+				"Readable Name": "Do they receive Child Support/Alimony?",
+				"Field Name": "SKIP",
+				"Type": "Radio Button",
+				"Options": [
+					"Yes",
+					"No"
+				],
+				"fields": [
+				{
+					"Readable Name": "How much do they receive every month?",
+					"Field Name": "PARENTCOAPPLICANT List gross income for current WEEK 2 WEEKS MONTH YEARRow6_3_1",
+					"Type": "Text"
+					
+				}
+				]
+			},
+			{
+				"Readable Name": "Do they receive other income?",
+				"Field Name": "SKIP",
+				"Type": "Radio Button",
+				"Options": [
+					"Yes",
+					"No"
+				],
+				"fields": [
+				{
+					"Readable Name": "How much do they receive every month before taxes are deducted?",
+					"Field Name": "PARENTCOAPPLICANT List gross income for current WEEK 2 WEEKS MONTH YEARRow7_3_1",
+					"Type": "Text"
+				}
+				]
+			}
+		]
+	}
+	]
+}

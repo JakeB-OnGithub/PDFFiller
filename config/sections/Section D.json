@@ -1,0 +1,164 @@
+{
+	"fields": [
+        {
+            "Readable Name": "Are you currently participating in the Food Stamp Program?",
+            "Field Name": "Are you currently participating in the Food Stamp Program",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes [[1]]",
+                "No [[2]]"
+            ]
+        },
+        {
+            "Readable Name": "Are you currently receiving/have you received assistance for child care with a Temporary Assistance for Needy Families (TANF) or Transitional Child Care (TCC) grant through the Work First New Jersey (WFNJ) Program within the last two years?",
+            "Field Name": "Have you rec'd TANF in last 2 yrs",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes [[1]]",
+                "No [[2]]"
+            ],
+            "fields": [
+                {
+                    "Readable Name": "When did/do the benefits expire?",
+                    "Field Name": "Date_5",
+                    "Type": "Date"
+                },
+                {
+                    "Readable Name": "What is the TANF case number?",
+                    "Field Name": "and TANF case number",
+                    "Type": "Text"
+                }
+            ]
+        },
+        {
+            "Readable Name": "Is your family an active case with the Division of Youth and Family Services (DYFS) and are the children for whom you are requesting subsidy residing with you?",
+            "Field Name": "Are you an Active DYFS Case",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes [[1]]",
+                "No [[2]]"
+            ],
+            "fields": [
+                {
+                    "Readable Name": "What is the name of the office?",
+                    "Field Name": "subsidy residing with you  If yes please give the name of the office",
+                    "Type": "Text"
+                }
+            ]
+        },
+        {
+            "Readable Name": "Are you currently receiving a TANF grant?",
+            "Field Name": "Are you currently receiving TANF - Current",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes [[1]]",
+                "No [[2]]"
+            ],
+            "fields": [
+                {
+                    "Readable Name": "What is the TANF case number?",
+                    "Field Name": "and TANF case number",
+                    "Type": "Text"
+                }
+            ]
+        },
+        {
+            "Readable Name": "Do you or a family member have a chronic medical problem for which child care is recommended as part of a treatment/rehabilitation plan?",
+            "Field Name": "Chronic Medical Condition",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes [[1]]",
+                "No [[2]]"
+            ],
+            "fields": [
+                {
+                    "Readable Name": "Indicate the name of the individual/agency authorizing the treatment plan",
+                    "Field Name": "Agency Name",
+                    "Type": "Text"
+                },
+                {
+                    "Readable Name": "What is the area code for their phone number?",
+                    "Field Name": "Area_4",
+                    "Type": "Text"
+                },
+                {
+                    "Readable Name": "What is the remainder of their phone number?",
+                    "Field Name": "undefined_11",
+                    "Type": "Text"
+                }
+            ]
+        },
+        {
+            "Readable Name": "Are you the head of the household in which you reside?",
+            "Field Name": "Are you head of household",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes [[1]]",
+                "No [[2]]"
+            ]
+        },
+        {
+            "Readable Name": "Are you currently homeless or at risk of becoming homeless?",
+            "Field Name": "Are you homeless",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes [[1]]",
+                "No [[2]]"
+            ]
+        },
+        {
+            "Readable Name": "Are the children for whom you are requesting child care assistance in a DYFS foster home, DYFS para-foster home, or DYFS pre-adoptive home. If you are employed or participating in a school or training program, proof must be attached for DYFS purposes.",
+            "Field Name": "In Foster Home",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes [[1]]",
+                "No [[2]]"
+            ]
+        },
+        {
+            "Readable Name": "Do you receive any cash or voucher assistance to specifically pay for housing?",
+            "Field Name": "Do you receive Housing Assistance",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes [[1]]",
+                "No [[2]]"
+            ]
+        },
+        {
+            "Readable Name": "Are you requesting assistance because the County Welfare Agency/Board of Social Services (CWA/BSS) informed you that you are ineligible for the Temporary Assistance for Needy Families (TANF) or Transitional Child Care (TCC) Program?",
+            "Field Name": "Are you ineligible for TANF/TCC",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes [[1]]",
+                "No [[2]]"
+            ]
+        },
+        {
+            "Readable Name": "I understand that I am applying for",
+            "Field Name": "Subsidy / Contracted",
+            "Type": "Radio Button",
+            "Options": [
+                "VOUCHER payment assistance [[V]]",
+                "CONTRACTED services in a community-based center [[C]]"
+            ]
+        },
+        {
+            "Readable Name": "Do all of the children in this family have health insurance benefits?",
+            "Field Name": "Do all of the children in this family have health insurance benefits",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes [[Yes_3]]",
+                "No [[No_3]]"
+            ]
+        },
+        {
+            "Readable Name": "If all of the children do NOT have health insurance benefits, do you wish to receive an application for NJ Family Care?",
+            "Field Name": "Do you want NJ Family Care App",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes [[Yes_4]]",
+                "No [[No_4]]"
+            ]
+        }
+]
+}

@@ -1,0 +1,20 @@
+{
+    "fields": [
+        {
+            "Readable Name": "Applicant Signature",
+            "Field Name": "ApplicantSignature_Page4",
+            "Type": "Signature",
+            "Page": "4",
+            "X": "85",
+            "Y": "163"
+        },
+        {
+            "Readable Name": "Co-Aplicant Signature",
+            "Field Name": "CoapplicantSignature_Page4",
+            "Type": "Signature",
+            "Page": "4",
+            "X": "85",
+            "Y": "172"
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "fields": [
+        {
+            "Readable Name": "Are your family assets worth more than $1,000,000?",
+            "Field Name": "Are your family assets worth more than a million",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "Readable Name": "If the primary language spoken in your home is not English please specify that language:",
+            "Field Name": "If the primary language spoken in your home is not English please specify that language",
+            "Type": "Text"
+        },
+        
+
+
+
+        {
+            "Readable Name": "Are you on full-time active military duty?",
+            "Field Name": "Applicant - Full Time Active Military",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "Readable Name": "Are you in the National Guard or the military reserve?",
+            "Field Name": "Applicant - In the National Guard",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "Readable Name": "Are you self-employed?",
+            "Field Name": "Applicant - Self-Employed",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "Readable Name": "Is there a co-applicant?",
+            "Field Name": "Is There a Co-Applicant",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes",
+                "No"
+            ],
+            "fields": [
+                {
+                    "Readable Name": "Is the co-applicant on full-time active military duty?",
+                    "Field Name": "Co-Applicant - Full Time Active Military",
+                    "Type": "Radio Button",
+                    "Options": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                {
+                    "Readable Name": "Is the co-applicant in the National Guard or the military reserve?",
+                    "Field Name": "Co-Applicant - In the National Guard",
+                    "Type": "Radio Button",
+                    "Options": [
+                        "Yes",
+                        "No"
+                    ]
+                },
+                {
+                    "Readable Name": "Is the co-applicant self-employed?",
+                    "Field Name": "Co-Applicant - Self-Employed",
+                    "Type": "Radio Button",
+                    "Options": [
+                        "Yes",
+                        "No"
+                    ]
+                }
+            ]
+        },
+        {
+            "Readable Name": "Are you homeless?",
+            "Field Name": "Are you homeless",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "Readable Name": "What is your full name?",
+            "Field Name": "Applicant Name",
+            "Type": "Text"
+        },
+        {
+            "Readable Name": "Applicant Signature",
+            "Field Name": "ApplicantSignature_Page5",
+            "Type": "Signature",
+            "Page": "5",
+            "X": "85",
+            "Y": "220"
+        },
+        {
+            "Readable Name": "What is the co-applicant's full name?",
+            "Field Name": "CoApplicant Name",
+            "Type": "Text"
+        },
+        {
+            "Readable Name": "Co-Aplicant Signature",
+            "Field Name": "CoapplicantSignature_Page5",
+            "Type": "Signature",
+            "Page": "5",
+            "X": "85",
+            "Y": "234"
+        }
+    ]
+}

@@ -1,0 +1,205 @@
+{
+	"fields": [
+        {
+            "Readable Name": "Are you working, or attending a school/training program?",
+            "Field Name": "SKIP",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes",
+                "No"
+            ],
+            "fields": [
+                {
+                    "Readable Name": "Please pick one from the following:",
+                    "Field Name": "Work / School / Training - 1",
+                    "Type": "Radio Button",
+                    "Options": [
+                        "Work",
+                        "School",
+                        "Training"
+                    ]
+                },
+                {
+                    "Readable Name": "What is the is the name of the company, and its full address (street, city, state, zip code)?",
+                    "Field Name": "Parent 1 - Primary Employer / Training Info",
+                    "Type": "Text"
+                },
+                {
+                    "Readable Name": "What is the area code for their phone number?",
+                    "Field Name": "Area",
+                    "Type": "Text"
+                },
+                {
+                    "Readable Name": "What is the remainder of their phone number?",
+                    "Field Name": "undefined_2",
+                    "Type": "Text"
+                },
+                {
+                    "Readable Name": "When did you start working for this employer, or when did you start attending the school/training program?",
+                    "Field Name": "Date_1_2",
+                    "Type": "Date"
+                },
+                {
+                    "Readable Name": "How many hours do you work every week, or how many hours do you attend the school/training program every week?",
+                    "Field Name": "HrsWk",
+                    "Type": "Text"
+                }
+            ]
+        },
+
+
+        {
+            "Readable Name": "Are you working a second job, or attending a second school/training program?",
+            "Field Name": "SKIP",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes",
+                "No"
+            ],
+            "fields": [
+                {
+                    "Readable Name": "Please pick one from the following:",
+                    "Field Name": "Work / School / Training - 2",
+                    "Type": "Radio Button",
+                    "Options": [
+                        "Work",
+                        "School",
+                        "Training"
+                    ]
+                },
+                {
+                    "Readable Name": "What is the is the name of the company, and its full address (street, city, state, zip code)?",
+                    "Field Name": "Parent 2 - Primary Employer / Training Info",
+                    "Type": "Text"
+                },
+                {
+                    "Readable Name": "What is the area code for their phone number?",
+                    "Field Name": "Area_1",
+                    "Type": "Text"
+                },
+                {
+                    "Readable Name": "What is the remainder of their phone number?",
+                    "Field Name": "undefined_3",
+                    "Type": "Text"
+                },
+                {
+                    "Readable Name": "When did you start working for this employer, or when did you start attending the school/training program?",
+                    "Field Name": "Date_2",
+                    "Type": "Date"
+                },
+                {
+                    "Readable Name": "How many hours do you work every week, or how many hours do you attend the school/training program every week?",
+                    "Field Name": "HrsWk_2",
+                    "Type": "Text"
+                }
+            ]
+        },
+
+
+        {
+            "Readable Name": "Is there a co-applicant?",
+            "Field Name": "SKIP",
+            "Type": "Radio Button",
+            "Options": [
+                "Yes",
+                "No"
+            ],
+            "fields": [
+                {
+                    "Readable Name": "Are they working, or attending a school/training program?",
+                    "Field Name": "SKIP",
+                    "Type": "Radio Button",
+                    "Options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        {
+                            "Readable Name": "Please pick one from the following:",
+                            "Field Name": "Work / School / Training - 3",
+                            "Type": "Radio Button",
+                            "Options": [
+                                "Work",
+                                "School",
+                                "Training"
+                            ]
+                        },
+                        {
+                            "Readable Name": "What is the is the name of the company, and its full address (street, city, state, zip code)?",
+                            "Field Name": "Parent 1 - Secondary Employer / Training Info",
+                            "Type": "Text"
+                        },
+                        {
+                            "Readable Name": "What is the area code for their phone number?",
+                            "Field Name": "Area_2",
+                            "Type": "Text"
+                        },
+                        {
+                            "Readable Name": "What is the remainder of their phone number?",
+                            "Field Name": "undefined_4",
+                            "Type": "Text"
+                        },
+                        {
+                            "Readable Name": "When did they start working for this employer, or when did they start attending the school/training program?",
+                            "Field Name": "Date_3",
+                            "Type": "Date"
+                        },
+                        {
+                            "Readable Name": "How many hours do they work every week, or how many hours do they attend the school/training program every week?",
+                            "Field Name": "HrsWk_3",
+                            "Type": "Text"
+                        }
+                    ]
+                },
+
+
+                {
+                    "Readable Name": "Are they working a second job, or attending a second school/training program? ",
+                    "Field Name": "SKIP",
+                    "Type": "Radio Button",
+                    "Options": [
+                        "Yes",
+                        "No"
+                    ],
+                    "fields": [
+                        {
+                            "Readable Name": "Please pick one from the following:",
+                            "Field Name": "Work / School / Training - 4",
+                            "Type": "Radio Button",
+                            "Options": [
+                                "Work",
+                                "School",
+                                "Training"
+                            ]
+                        },
+                        {
+                            "Readable Name": "What is the is the name of the company, and its full address (street, city, state, zip code)?",
+                            "Field Name": "Parent 2 - Secondary Employer / Training Info",
+                            "Type": "Text"
+                        },
+                        {
+                            "Readable Name": "What is the area code for their phone number?",
+                            "Field Name": "Area_3",
+                            "Type": "Text"
+                        },
+                        {
+                            "Readable Name": "What is the remainder of their phone number?",
+                            "Field Name": "undefined_5",
+                            "Type": "Text"
+                        },
+                        {
+                            "Readable Name": "When did they start working for this employer, or when did they start attending the school/training program?",
+                            "Field Name": "Date_4",
+                            "Type": "Date"
+                        },
+                        {
+                            "Readable Name": "How many hours do they work every week, or how many hours do they attend the school/training program every week?",
+                            "Field Name": "HrsWk_4",
+                            "Type": "Text"
+                        }
+                    ]
+                }
+            ]
+        }
+]
+}
